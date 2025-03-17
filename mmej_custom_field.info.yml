@@ -1,0 +1,8 @@
+name: 'MMEJ Custom Field'
+type: module
+description: 'Defines a simple user type as a custom field.'
+core_version_requirement: ^9 || ^10
+package: mejdoubi
+dependencies:
+  - drupal:user
+  - drupal:field
